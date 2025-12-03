@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fred Daniel | Software Engineer</title>
+    <meta name="description"
+        content="Portfolio of Fred Daniel, a Software Engineer specializing in building exceptional digital experiences.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="cursor-dot" id="cursor-dot"></div>
+    <div class="cursor-outline" id="cursor-outline"></div>
+
+    <header class="header">
+        <nav class="nav container">
+            <a href="#" class="logo">FD<span class="accent">.</span></a>
+            <ul class="nav-list">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Work</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero container">
+            <div class="hero-content">
+                <p class="hero-greeting">Hello, I'm</p>
+                <h1 class="hero-title">FRED DANIEL</h1>
+                <h2 class="hero-subtitle">I am a <span class="typing-text"></span><span class="cursor">|</span></h2>
+                <p class="hero-description">
+                    Building scalable, high-performance web applications with a focus on premium user experiences.
+                </p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <!-- Abstract geometric shape or code snippet visual can go here -->
+                <div class="code-block-visual">
+                    <div class="code-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                    </div>
+                    <pre><code><span class="keyword">const</span> <span class="variable">developer</span> = {
+    <span class="property">name</span>: <span class="string">'Fred Daniel'</span>,
+    <span class="property">role</span>: <span class="string">'Software Engineer'</span>,
+    <span class="property">skills</span>: [<span class="string">'Web'</span>, <span class="string">'Mobile'</span>, <span class="string">'Cloud'</span>],
+    <span class="property">hardWorker</span>: <span class="boolean">true</span>
+};</code></pre>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about container section-fade">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a passionate Software Engineer with a knack for turning complex problems into elegant
+                        solutions.
+                        With a strong foundation in computer science and modern web technologies, I create digital
+                        products
+                        that are not only functional but also intuitive and visually stunning.
+                    </p>
+                    <p>
+                        When I'm not coding, you can find me exploring new tech trends, contributing to open source,
+                        or optimizing my workflow for maximum efficiency.
+                    </p>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-item">JavaScript</div>
+                    <div class="skill-item">TypeScript</div>
+                    <div class="skill-item">React</div>
+                    <div class="skill-item">Node.js</div>
+                    <div class="skill-item">Python</div>
+                    <div class="skill-item">SQL</div>
+                    <div class="skill-item">AWS</div>
+                    <div class="skill-item">Docker</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects container section-fade">
+            <h2 class="section-title">Selected Work</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <div class="placeholder-img" style="background: linear-gradient(45deg, #2a2a72, #009ffd);">
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">E-commerce API</h3>
+                        <p class="project-desc">A robust RESTful API built for high-volume online retail, featuring
+                            secure auth and payment integration.</p>
+                        <div class="project-tags">
+                            <span>Node.js</span>
+                            <span>Express</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="link-icon">GitHub</a>
+                            <a href="#" class="link-icon">Live Demo</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <div class="placeholder-img" style="background: linear-gradient(45deg, #11998e, #38ef7d);">
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Task Dashboard</h3>
+                        <p class="project-desc">A real-time project management tool with drag-and-drop kanban boards and
+                            team collaboration features.</p>
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>Firebase</span>
+                            <span>Tailwind</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="link-icon">GitHub</a>
+                            <a href="#" class="link-icon">Live Demo</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <div class="placeholder-img"
+                            style="background: linear-gradient(45deg, #833ab4, #fd1d1d, #fcb045);"></div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Portfolio v1</h3>
+                        <p class="project-desc">The first iteration of my personal portfolio, showcasing my journey and
+                            early experiments in web dev.</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>SCSS</span>
+                            <span>JS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="link-icon">GitHub</a>
+                            <a href="#" class="link-icon">Live Demo</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="contact container section-fade">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <p>Interested in working together? Have a question? Feel free to reach out.</p>
+                    <a href="mailto:hello@freddaniel.dev" class="contact-email">hello@freddaniel.dev</a>
+                    <div class="social-links">
+                        <a href="#" class="social-link">LinkedIn</a>
+                        <a href="#" class="social-link">GitHub</a>
+                        <a href="#" class="social-link">Twitter</a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Fred Daniel. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
